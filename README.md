@@ -69,7 +69,7 @@ c) `stick`(Optional) is the third argument, which takes either `true` or `false`
 
 d) `timeout`(Optional) is the fourth argument, which takes time in milliseconds. If the value is greater than 5000, then it will be considered as 5000(5 seconds) only. The default value is 4000 milli seconds.
 
-e) `background`(Optional) is the fifth argument, which takes the background color in hexadecimal, rgb() or rgba(). If the value is null the background color is `rgba(0, 0, 0, 0.75)`.
+e) `extra classes` (Optional) is the fifth argument, which takes string with classes to add on parent container ex. 'success someOtherClass'.
 
 **7)** In your controller you have to define a function like below to hide the toast
 
@@ -93,41 +93,3 @@ Once you click on the button you should see the remaining screen shots.
 ![ionic-toast middle](https://lh3.googleusercontent.com/J7n3YRhRx68hIQmKLRJEKq6QfkxkAD7y_Jqc9eFDOtk=w320-h568-no "ionic-toast middle")
 ![ionic-toast bottom](https://lh3.googleusercontent.com/MQyAFN9S8d8Pd05XALFcuhPiY_LNlKEIS9yWh-WKTh0=w320-h568-no "ionic-toast bottom")
 
-## Versions:
-
-### 1) v0.1.0
-The whole `ionic-toast` component functionality has been implemented, and it can be installed with the command `bower install ionic-toast --save`
-
-### 2) v0.1.1
-Bug Fix
-
-### 3) v0.2.0
-Lint issues fixed, npm packages updated, main files added in the package.json, changes in the gulp tasks.
-
-### 4) v0.3.0
-Code modularity implemented, npm packages updated.
-
-JS and CSS file is combined into one `ionic-toast.bundle.min.js` file in the dist folder.
-
-### 5) v0.4.0
-Bug fix.
-
-### 6) v0.4.1
-[Issue#21](https://github.com/rajeshwarpatlolla/ionic-toast/issues/21)
-
-
-## License:
-[MIT](https://github.com/rajeshwarpatlolla/ionic-toast/blob/master/LICENSE.md "MIT")
-
-## Contact:
-gmail : rajeshwar.patlolla@gmail.com
-
-github : https://github.com/rajeshwarpatlolla
-
-twitter : https://twitter.com/rajeshwar_9032
-
-facebook : https://www.facebook.com/rajeshwarpatlolla
-
-paypal : rajeshwar.patlolla@gmail.com
-
-Rate / Comment : http://market.ionic.io/plugins/ionictoast
