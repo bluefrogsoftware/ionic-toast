@@ -25,7 +25,7 @@ angular.module('ionic-toast.provider', [])
 
         var provider = {};
         var $scope = $rootScope.$new();
-        var toastTimer = defaultConfig.timeOut;
+        var toastTimer = null;
 
         var defaultScope = {
           toastClass: '',
